@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@color/blue_dark"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/blue_dark"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo2"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                />
+
+            <TextView
+                android:id="@+id/namaApp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" | Diagnosis Dini Potensi Kanker"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="@color/white_200"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang"
+                    android:layout_margin="15dp"
+                    android:textSize="35dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Silakan pilih menu diagnosis di bawah"
+                    android:layout_marginStart="15dp"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:rowCount="3"
+                    android:columnCount="3"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center_horizontal"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnHati"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/red"
+                            app:icon="@drawable/ic_hati"
+                            app:iconTint="@color/white"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hati"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnParuParu"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/purple"
+                            app:icon="@drawable/ic_paru_paru"
+                            app:iconTint="@color/white"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paru-Paru"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnPayudara"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/blue"
+                            app:icon="@drawable/ic_breast_reconstruction_1668"
+                            app:iconTint="@color/white"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Payudara"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnProstat"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/brown"
+                            app:iconTint="@color/white"
+                            app:icon="@drawable/ic_pelvis"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prostat"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnDarah"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/green"
+                            app:icon="@drawable/ic_blood_cells"
+                            app:iconTint="@color/white"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Darah"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_columnWeight="1"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnUsus"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/orange"
+                            app:icon="@drawable/ic_large_intestine"
+                            app:iconTint="@color/white"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Usus"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_columnWeight="1">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnServiks"
+                            android:layout_width="55dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="7dp"
+                            android:backgroundTint="@color/pink"
+                            app:icon="@drawable/ic_uterus"
+                            app:iconTint="@color/white"
+                            app:iconGravity="textTop"
+                            app:iconSize="35dp"
+                            app:cornerRadius="100dp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Serviks"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>

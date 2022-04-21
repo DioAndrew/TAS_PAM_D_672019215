@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">TAS_PAM</string>
+
+    <string name="hasil_diagnosis_hati_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker hati, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_hati_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker hati, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_hati">
+        <item>Berat badan turun</item>
+        <item>Kehilangan nafsu makan</item>
+        <item>Perut bagian atas terasa sakit</item>
+        <item>Gatal-gatal</item>
+        <item>Mual dan muntah</item>
+        <item>Tubuh terasa lemah dan lelah</item>
+        <item>Tubuh terasa lemah dan lelah</item>
+        <item>Perut membengkak atau penumpukan carian</item>
+        <item>Kulit dan bagian putih mata berwarna kuning</item>
+        <item>Tinja berwarna putih</item>
+        <item>Merasa sangat kenyang walau hanya makan sedikit</item>
+        <item>Hati membesar atau ada benjolan di bawah tulang rusuk sebelah kanan</item>
+        <item>Limpa membesar atau ada benjolan di bawah tulang rusuk sebelah kiri</item>
+    </string-array>
+
+    <string name="hasil_diagnosis_paru_paru_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker paru-paru, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_paru_paru_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker paru-paru, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_paru_paru">
+        <item>Batuk kronis atau bantuk yang tidak kunjung sembuh setelah beberapa minggu atau berbulan-bulan</item>
+        <item>Batuk berdarah atau terdapat bercak darah pada lendir batuk</item>
+        <item>Nyeri dada, terutama saat menarik napas, batuk, dan tertawa</item>
+        <item>Suara serak</item>
+        <item>Berat badan menurun dan kehilangan nafsu makan </item>
+        <item>Sesak napas</item>
+        <item>Cepat lelah</item>
+        <item>Sering megalami infeksi saluran pernapasan, misalnya bronkitis atau pneumonia</item>
+        <item>Nyeri tulang</item>
+        <item>Mengi atau suara bernapas yang terdengar tinggi saat sedang bernapas</item>
+        <item>Sakit kepala</item>
+    </string-array>
+
+    <string name="hasil_diagnosis_payudara_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker payudara, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_payudara_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker payudara, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_payudara">
+        <item>Muncul benjolan lunak atau keras yang tidak terasa sakit di payudara</item>
+        <item>Payudara atau puting terasa nyeri</item>
+        <item>Putting tertarik ke dalam</item>
+        <item>Gatal-gatal</item>
+        <item>Kulit payudara atau puting  menebal, bersisik, kemerahan, gatal, muncul ruam, dan iritasi</item>
+        <item>Keluar cairan dari putting yang berwarna kuning, coklat, merah, atau bening</item>
+        <item>Penurunan berat badan tanpa sebab yang jelas</item>
+    </string-array>
+
+    <string name="hasil_diagnosis_prostat_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker prostat, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_prostat_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker prostat, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_prostat">
+        <item>Sering merasa ingin buang air kecil, terutama di malam hari</item>
+        <item>Sulit mengeluarkan atau menghentikan aliran urine</item>
+        <item>Aliran urine lemah atau terhambat</item>
+        <item>Buang air kecil sedikit secara tidak sengaja saat tertawa atau batuk</item>
+        <item>Tidak bisa buang air kecil dalam posisi berdiri</item>
+        <item>Terasa sakit atau perih saat buang air atau ejakulasi</item>
+        <item>Ada darah dalam urine atau air mani</item>
+        <item>Kandung kemih terasa belum sepenuhnya kosong usai buang air kecil</item>
+        <item>Disfungsi ereksi atau susah ereksi</item>
+        <item>Pinggul, punggung(tulang belakang), dada(tulang rusuk), atau daerah lain terasa sakit</item>
+        <item>Kaki lemas atau mati rasa</item>
+        <item>Kehilangan kontrol kandung kemih</item>
+    </string-array>
+
+    <string name="hasil_diagnosis_darah_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker darah, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_darah_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker darah, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_darah">
+        <item>Demam atau menggigil</item>
+        <item>Letih atau cepat lelah</item>
+        <item>Sering sakit dan infeksi</item>
+        <item>Mudah memar atau sering mengalami pendarahan spontan, misalnya sering mimisan, gusi berdarah atau muncul bintik merah di kulit</item>
+        <item>Sering keringat dingin, terutama pada malam hari</item>
+        <item>Nyeri tulang</item>
+        <item>Muncul benjolan di leher, ketiak, atau pangkal paha</item>
+        <item>Tidak nafsu makan</item>
+        <item>Nyeri dan pembengkakan di perut</item>
+        <item>Berat badan turun</item>
+    </string-array>
+
+    <string name="hasil_diagnosis_usus_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker usus, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_usus_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker usus, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_usus">
+        <item>Perubahan bentuk dan konsistensi tinja yang berlangsung hingg lebih dari 4 minggu</item>
+        <item>Gangguan pencernaan , misalnya diare dan susah buang air besar yang tidak kunjung sembuh</item>
+        <item>Buang air besar berdarah atau keluar darah dari anus</item>
+        <item>Perut terasa kram, nyeri, atau kembung, secara terus menerus</item>
+        <item>Sensasi belum tuntas setelah buang air besar</item>
+        <item>Lemah atau cepat lelah</item>
+        <item>Penurunan berat badan tanpa sebab</item>
+    </string-array>
+
+    <string name="hasil_diagnosis_serviks_tinggi">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi tinggi mengidap kanker serviks, segera periksakan ke rumah sakit!</string>
+    <string name="hasil_diagnosis_serviks_rendah">Berdasarkan hasil diagnosisi dari gejala, anda berpotensi berpotensi rendah mengidap kanker serviks, tetap jaga kesehatan dan sering memeriksakan kesehatan anda</string>
+    <string-array name="gejala_kanker_serviks">
+        <item>Pendarahan vagina yang tidak normal, misalnya mucnul setelah menopause, setelah berhubungan seksual , atau antara periode menstruasi</item>
+        <item>Rasa nyeri atau tidak nyaman saat berhubungan seks</item>
+        <item>Keluar cairan dari vagina atau keputihan yang tidak normal</item>
+        <item>Siklus haid berubah dan tidak dapat dijelaskan</item>
+        <item>Nyeri panggung, kaki, atau punggung</item>
+        <item>Buang air kecil bermasalah karena adanya penyumbatan pada ginjal atau ureter</item>
+        <item>Urine atau tinja masuk ke dalam vagina</item>
+        <item>Berat badan berkurang</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string-array name="cara_terhindar_dari_kanker">
+        <item>Berhenti merokok dan jauhi asap rokok</item>
+        <item>Jaga pola makan tetap sehat</item>
+        <item>Perbanyak makan buah dan sayur setiap hari</item>
+        <item>Batasi makanan tinggi kalori, lemak, dan pengolahan dibakar</item>
+        <item>Kurangi kebiasaan minum alkohol</item>
+        <item>Rajin berolahraga</item>
+        <item>Lindungi kulit dari sinar radiasi matahari</item>
+        <item> Lakukan vaksinasi untuk mencegah kanker</item>
+        <item>Rajin melakukan medical checkup atau memeriksakan kesehatan</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/drawable/ic_serviks.xml" value="0.240625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_darah.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_hati.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_paru_paru.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_payudara.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_prostat.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_serviks.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_diagnosis_kanker_usus.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_hasil_diagnosis_kurang60_persen.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/item.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TAS_PAM/app/src/main/res/menu/menu_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/User/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_multiple_choice.xml" value="0.19021739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
